@@ -4,7 +4,7 @@
 # Remove from Chrome manually
 rm -rf /Users/Nafty/Library/Application Support/Google/Chrome/Profile 2/Extensions/ekhagklcjbdpajgpjgmbionohlpdbjgc
 rm -rf /Users/Nafty/Library/Application Support/Google/Chrome/Profile 2/Local Extension Settings/ekhagklcjbdpajgpjgmbionohlpdbjgc
-# re-Add to Chrome
+# re-Add to Chrome: https://chrome.google.com/webstore/detail/ekhagklcjbdpajgpjgmbionohlpdbjgc
 
 
 # reset ZoteroGoogleDrive-PDFLinker-Cloud caches
