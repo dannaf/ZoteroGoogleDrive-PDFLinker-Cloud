@@ -21,3 +21,6 @@ rm -rf Content.localized/Startup.localized/Word/Zotero.dotm
 rm -rf /Users/Nafty/Library/Preferences/org.zotero.zotero.plist
 rm -rf /Users/Nafty/Library/Saved Application State/org.zotero.zotero.savedState
 
+
+# reset Zotero-hhs Google Drive folder
+# manually delete everything
