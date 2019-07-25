@@ -8,8 +8,8 @@ If your local PDFs are not yet uploaded/synced to your Google Drive, this tool w
 
 ## Usage
 
- 1. Install *pyzotero* and *pydrive* via pip:  
-        `sudo pip install pyzotero pydrive`
+ 1. Install dependencies via pip (*pyzotero*, *pydrive*, and *appdirs*):  
+        `sudo pip install pyzotero pydrive appdirs`
 
 
  2. Run `./src/run.py <config file>`
@@ -45,6 +45,7 @@ A template config file can be generated via the `--make-config` parameter, produ
 	#  - if you use zotero storage, provide the cache directory, or the full external path /foo/bar/pdfs/etc/
 	#  - zotero storage folder in linux is at '~/.zotero/zotero/<blah>.default/zotero/storage/'
 	#                      and in windows is likely under the appdata folder somewhere
+	#                      and in macOS is likely under `/Users/<your_user_name>/Zotero/storage/`
 	storage = /change/this/path
 
 This file can then be passed in as first parameter to the run script.
