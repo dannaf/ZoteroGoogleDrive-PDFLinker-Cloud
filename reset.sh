@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+############
+## REMOVE ##
+############
+
 # reset Zotero Connector
 echo "Manually 'Remove from Chrome'"
 rm -rf /Users/Nafty/Library/Application Support/Google/Chrome/Profile 2/Extensions/ekhagklcjbdpajgpjgmbionohlpdbjgc
@@ -25,3 +30,10 @@ rm -rf /Users/Nafty/Library/Saved Application State/org.zotero.zotero.savedState
 
 # reset Zotero-hhs Google Drive folder
 echo 'Manually delete gdrive Zotero-hhs folder'  # manually delete everything  # TODO: can automate this with pydrive
+
+
+################
+## RE-INSTALL ##
+################
+
+
